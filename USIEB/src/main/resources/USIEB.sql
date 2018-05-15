@@ -1,14 +1,5 @@
 /*
-Navicat MySQL Data Transfer
-
-Source Server         : remoteadmin
-Source Server Version : 50626
-Source Host           : 118.89.226.241:3306
-Source Database       : USIEB
-
 Target Server Type    : MYSQL
-Target Server Version : 50626
-File Encoding         : 65001
 
 Date: 2018-05-09 17:31:44
 */
