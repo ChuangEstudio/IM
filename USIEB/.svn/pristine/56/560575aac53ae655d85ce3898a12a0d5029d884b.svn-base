@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>使用中物品</title>
+        <!-- Mobile specific metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- Force IE9 to render in normal mode -->
+        <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+        <meta name="author" content="" />
+        <meta name="description" content=""
+        />
+        <meta name="keywords" content=""
+        />
+        <meta name="application-name" content="sprFlat admin template" />
+        <!-- Import google fonts - Heading first/ text second -->
+        <link rel='stylesheet' type='text/css' />
+        <!-- Css files -->
+        <!-- Icons -->
+        <link href="../assets/css/icons.css" rel="stylesheet" />
+        <!-- jQueryUI -->
+        <link href="../assets/css/sprflat-theme/jquery.ui.all.css" rel="stylesheet" />
+        <!-- Bootstrap stylesheets (included template modifications) -->
+        <link href="../assets/css/bootstrap.css" rel="stylesheet" />
+        <!-- Plugins stylesheets (all plugin custom css) -->
+        <link href="../assets/css/plugins.css" rel="stylesheet" />
+        <!-- Main stylesheets (template main css file) -->
+        <link href="../assets/css/main.css" rel="stylesheet" />
+        <!-- Custom stylesheets ( Put your own changes here ) -->
+        <link href="../assets/css/custom.css" rel="stylesheet" />
+        <!-- Fav and touch icons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/img/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/img/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/img/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="../assets/img/ico/apple-touch-icon-57-precomposed.png">
+        <link rel="icon" href="../assets/img/ico/favicon.ico" type="image/png">
+        <!-- Windows8 touch icon ( http://www.buildmypinnedsite.com/ )-->
+        <meta name="msapplication-TileColor" content="#3399cc" />
+    </head>
+    <body>
+        <!-- Start #header -->
+        <div id="header">
+            <div class="container-fluid">
+                <div class="navbar">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">
+                            <i class="im-windows8 text-logo-element animated bounceIn"></i><span class="text-logo">spr</span><span class="text-slogan">flat</span> 
+                        </a>
+                    </div>
+                    <nav class="top-nav" role="navigation">
+                        <ul class="nav navbar-nav pull-left">
+                            <li id="toggle-sidebar-li">
+                                <a href="#" id="toggle-sidebar"><i class="en-arrow-left2"></i>
+                        </a>
+                            </li>
+                            <li>
+                                <a href="#" class="full-screen"><i class="fa-fullscreen"></i></a>
+                            </li>
+                            
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown"><i class="ec-mail"></i><span class="notification">4</span></a>
+                                <ul class="dropdown-menu email" role="menu">
+                                    <li class="mail-head">
+                                        <div class="clearfix">
+                                            <div class="pull-left">
+                                                <a href="email-inbox.html"><i class="ec-archive"></i></a>
+                                            </div>
+                                            <span>Inbox</span> 
+                                            <div class="pull-right">
+                                                <a href="email-inbox.html"><i class="st-pencil"></i></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="search-email">
+                                        <form>
+                                            <input type="text" name="search" placeholder="Search for emails">
+                                            <button type="submit"><i class="ec-search"></i>
+                                            </button>
+                                        </form>
+                                    </li>
+                                    <li class="mail-list clearfix">
+                                        <a href="#">
+                                            <img src="../assets/img/avatars/128.jpg" class="mail-avatar pull-left" alt="avatar">
+                                            <p class="name">
+                                                <span class="status"><i class="en-dot"></i></span> Jason Rivera
+                                                <span class="notification">2</span>
+                                                <span class="time">12:30 am</span>
+                                            </p>
+                                            <p class="msg">
+                                                I contact you regarding my account please can you set up my pass ...
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="mail-list clearfix">
+                                        <a href="#">
+                                            <img src="../assets/img/avatars/129.jpg" class="mail-avatar pull-left" alt="avatar">
+                                            <p class="name">
+                                                <span class="status off"><i class="en-dot"></i></span> Steeve Mclark
+                                                <span class="notification">6</span>
+                                                <span class="time">10:26 am</span>
+                                            </p>
+                                            <p class="msg">
+                                                Good job dude awesome work here, please add theese features ...
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="mail-list clearfix">
+                                        <a href="#">
+                                            <img src="../assets/img/avatars/130.jpg" class="mail-avatar pull-left" alt="avatar">
+                                            <p class="name">
+                                                <span class="status off"><i class="en-dot"></i></span> Fellix Jones
+                                                <span class="notification">1</span>
+                                                <span class="time">7:15 am</span>
+                                            </p>
+                                            <p class="msg">
+                                                I have some issues when try to reach my product page can you ...
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="mail-list clearfix">
+                                        <a href="#">
+                                            <img src="../assets/img/avatars/131.jpg" class="mail-avatar pull-left" alt="avatar">
+                                            <p class="name">
+                                                <span class="status"><i class="en-dot"></i></span> Tina Dowsen
+                                                <span class="notification">5</span>
+                                                <span class="time">03:46 am</span>
+                                            </p>
+                                            <p class="msg">
+                                                Hello Sugge, i want to apply for your referal program , please ...
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="mail-more">
+                                        <a href="email-inbox.html">View all <i class="en-arrow-right7"></i></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav pull-right">
+                            <li>
+                                <a href="#" id="toggle-header-area"><i class="ec-download"></i></a>
+                            </li>
+                            
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown">
+                                    <img class="user-avatar" src="../assets/img/avatars/48.jpg" alt=""></a>
+                                <ul class="dropdown-menu right" role="menu">
+                                    <li><a href="personal-message.html"><i class="st-user"></i> Profile</a>
+                                    </li>
+                                    <li><a href="#"><i class="st-cloud"></i> Files</a>
+                                    </li>
+                                    <li><a href="#"><i class="st-settings"></i> Settings</a>
+                                    </li>
+                                    <li><a href="login.html"><i class="im-exit"></i> Logout</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Start #header-area -->
+                <div id="header-area" class="fadeInDown">
+                    <div class="header-area-inner">
+                        <ul class="list-unstyled list-inline">
+                            <li>
+                                <div class="shortcut-button">
+                                    <a href="#">
+                                        <i class="im-pie"></i>
+                                        <span>Earning Stats</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="shortcut-button">
+                                    <a href="#">
+                                        <i class="ec-images color-dark"></i>
+                                        <span>Gallery</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="shortcut-button">
+                                    <a href="#">
+                                        <i class="en-light-bulb color-orange"></i>
+                                        <span>Fresh ideas</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="shortcut-button">
+                                    <a href="#">
+                                        <i class="ec-link color-blue"></i>
+                                        <span>Links</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="shortcut-button">
+                                    <a href="#">
+                                        <i class="ec-support color-red"></i>
+                                        <span>Support</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="shortcut-button">
+                                    <a href="#">
+                                        <i class="st-lock color-teal"></i>
+                                        <span>Lock area</span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End #header-area -->
+            </div>
+            <!-- Start .header-inner -->
+        </div>
+        <!-- End #header -->
+        <!-- Start #sidebar -->
+        <div id="sidebar">
+            <!-- Start .sidebar-inner -->
+            <div class="sidebar-inner">
+                <!-- Start #sideNav -->
+                <ul id="sideNav" class="nav nav-pills nav-stacked">
+                    <li class="top-search">
+                        <form>
+                            <input type="text" name="search" placeholder="Search ...">
+                            <button type="submit"><i class="ec-search s20"></i>
+                            </button>
+                        </form>
+                    </li>
+                    <li><a href="index.html">学生主页 <i class="im-screen"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"> 竞赛活动 <i class="im-trophy"></i></a>
+                            <ul class="nav sub">
+                                <li><a href="competition_signup_list.html"><i class="ec-pencil2"></i>报名竞赛</a>
+                                </li>
+                                <li><a href="activity_signup_list.html"><i class="ec-pencil2"></i>报名活动</a>
+                                </li>
+                                <li><a href="competition_history.html"><i class="im-history"></i>已报竞赛历史</a>
+                                </li>
+                                <li><a href="activity_history.html"><i class="im-history"></i>已报活动历史</a>
+                                </li>
+                            </ul>
+                        </li>
+                    <li><a href="#"> 团队管理 <i class="im-users"></i></a>
+                        <ul class="nav sub">
+                            <li><a href="team_information_detail.html"><i class="ec-users"></i> 团队详细信息</a>
+                            </li>
+                        </ul>
+                    </li>
+                  
+                    <li><a href="#"> 物品/会议室 <i class="im-grin"></i></a>
+                        <ul class="nav sub">
+                            <li><a href="goods_apply.html"><i class="st-box"></i> 物品申请</a>
+                            </li>
+                            <li><a href="goods_use.html"><i class="im-point-right"></i> 使用中物品</a>
+                            </li>
+                            <li><a href="goods_apply_history.html"><i class="im-history"></i> 物品申请历史</a>
+                            </li>
+                            <li><a href="rooms_apply.html"><i class="en-house"></i> 会议室申请</a>
+                            </li>
+                            <li><a href="rooms_apply_history.html"><i class="im-history"></i> 会议室申请历史</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    <li><a href="#"> 值班表 <i class="im-calendar"></i></a>
+                        <ul class="nav sub">
+                            <li><a href="duty_roster.html"><i class="im-calendar2"></i> 查看值班表</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html"><i class="im-images"></i> logo墙</a>
+                    </li>
+                </ul>
+                <!-- End #sideNav -->
+            </div>
+            <!-- End .sidebar-inner -->
+        </div>
+        <!-- End #sidebar -->
+      
+        <!-- End #right-sidebar -->
+        <!-- Start #content -->
+        <div id="content">
+            <!-- Start .content-wrapper -->
+            <div class="content-wrapper">
+                <div class="row">
+                    <!-- Start .row -->
+                    <!-- Start .page-header -->
+                    <div class="col-lg-12 heading">
+                        <h1 class="page-header"><i class="im-screen"></i> 使用中物品</h1>
+                        <!-- Start .bredcrumb -->
+                        <ul id="crumb" class="breadcrumb">
+                        </ul>
+                        <!-- End .breadcrumb -->
+                        <!-- Start .option-buttons -->
+                        <div class="option-buttons">
+                            <div class="btn-toolbar" role="toolbar">
+                                <div class="btn-group">
+                                    <a id="clear-localstorage" class="btn tip" title="Reset panels position">
+                                        <i class="ec-refresh color-red s24"></i>
+                                    </a>
+                                </div>
+                                <div class="btn-group dropdown">
+                                    <a class="btn dropdown-toggle" data-toggle="dropdown" id="dropdownMenu1"><i class="br-grid s24"></i></a>
+                                    <div class="dropdown-menu pull-right" role="menu" aria-labelledby="dropdownMenu1">
+                                        <div class="option-dropdown">
+                                            <div class="shortcut-button">
+                                                <a href="#">
+                                                    <i class="im-pie"></i>
+                                                    <span>Earning Stats</span>
+                                                </a>
+                                            </div>
+                                            <div class="shortcut-button">
+                                                <a href="#">
+                                                    <i class="ec-images color-dark"></i>
+                                                    <span>Gallery</span>
+                                                </a>
+                                            </div>
+                                            <div class="shortcut-button">
+                                                <a href="#">
+                                                    <i class="en-light-bulb color-orange"></i>
+                                                    <span>Fresh ideas</span>
+                                                </a>
+                                            </div>
+                                            <div class="shortcut-button">
+                                                <a href="#">
+                                                    <i class="ec-link color-blue"></i>
+                                                    <span>Links</span>
+                                                </a>
+                                            </div>
+                                            <div class="shortcut-button">
+                                                <a href="#">
+                                                    <i class="ec-support color-red"></i>
+                                                    <span>Support</span>
+                                                </a>
+                                            </div>
+                                            <div class="shortcut-button">
+                                                <a href="#">
+                                                    <i class="st-lock color-teal"></i>
+                                                    <span>Lock area</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-group dropdown">
+                                    <a class="btn dropdown-toggle" data-toggle="dropdown" id="dropdownMenu2"><i class="ec-pencil s24"></i></a> 
+                                    <div class="dropdown-menu pull-right" role="menu" aria-labelledby="dropdownMenu2">
+                                        <div class="option-dropdown">
+                                            <div class="row">
+                                                <p class="col-lg-12">Quick post</p>
+                                                <form class="form-horizontal" role="form">
+                                                    <div class="form-group">
+                                                        <div class="col-lg-12">
+                                                            <input type="text" class="form-control" placeholder="Enter title">
+                                                        </div>
+                                                    </div>
+                                                    <!-- End .form-group  -->
+                                                    <div class="form-group">
+                                                        <div class="col-lg-12">
+                                                            <textarea class="form-control wysiwyg" placeholder="Enter text"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End .form-group  -->
+                                                    <div class="form-group">
+                                                        <div class="col-lg-12">
+                                                            <input type="text" class="form-control tags1" placeholder="Enter tags">
+                                                        </div>
+                                                    </div>
+                                                    <!-- End .form-group  -->
+                                                    <div class="form-group">
+                                                        <div class="col-lg-12">
+                                                            <button class="btn btn-default btn-xs">Save Draft</button>
+                                                            <button class="btn btn-success btn-xs pull-right">Publish</button>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End .form-group  -->
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-group">
+                                    <a class="btn dropdown-toggle" data-toggle="dropdown" id="dropdownMenu3"><i class="ec-help s24"></i></a>
+                                    <div class="dropdown-menu pull-right" role="menu" aria-labelledby="dropdownMenu3">
+                                        <div class="option-dropdown">
+                                            <p>First time visitor ? <a href="#" id="app-tour" class="btn btn-success ml15">Take app tour</a> 
+                                            </p>
+                                            <hr>
+                                            <p>Or check the <a href="#" class="btn btn-danger ml15">FAQ</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End .option-buttons -->
+                    </div>
+                    <!-- End .page-header -->
+                </div>
+                <!-- End .row -->
+                <div class="outlet">
+                    <!-- Start .outlet -->
+                    <!-- Page start here ( usual with .row ) -->
+                    <div class="row">
+                        <!-- Start .row -->
+                        
+						<div class="col-lg-12">
+                            <!-- col-lg-12 start here -->
+                            <div class="panel panel-default plain toggle panelClose panelRefresh">
+                                <!-- Start .panel -->
+                                <div class="panel-heading white-bg">
+                                    <h4 class="panel-title">审核物品申请</h4>
+                                </div>
+                                <div class="panel-body">
+                                    <table class="table display" id="datatable">
+                                        <thead>
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>借用物品名称</th>
+                                                <th>借用数量</th>
+                                                <th>使用时间</th>
+                                                <th>备注</th>
+                                                <th>操作</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="odd gradeX">
+                                                <td>1</td>
+                                                <td>网线</td>
+                                                <td>2</td>
+                                                <td>2017/03/03-2017/03/03</td>
+                                                <td>感谢学校支持</td>
+                                                <td class="left">
+                                                    <a href="goods_apply_history.html">
+                                                        <button type="submit" class="btn btn-primary start">
+                                                            <i class="en-upload"></i>
+                                                            <span>归还</span>
+                                                        </button>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr class="even gradeX">
+                                                <td>2</td>
+                                                <td>网线</td>
+                                                <td>2</td>
+                                                <td>2017/03/03-2017/03/03</td>
+                                                <td>好借好还，再接不难</td>
+                                                <td class="left">
+                                                    <a href="goods_apply_history.html">
+                                                        <button type="submit" class="btn btn-primary start">
+                                                            <i class="en-upload"></i>
+                                                            <span>归还</span>
+                                                        </button>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- End .panel -->
+                        </div>
+                        <!-- col-lg-12 end here -->
+						
+                    </div>
+                    <!-- End .row -->
+                    <!-- Page End here -->
+                </div>
+                <!-- End .outlet -->
+            </div>
+            <!-- End .content-wrapper -->
+            <div class="clearfix"></div>
+        </div>
+        <!-- End #content -->
+        <!-- Javascripts -->
+        <!-- Load pace first -->
+        <script src="../assets/plugins/core/pace/pace.min.js"></script>
+        <!-- Important javascript libs(put in all pages) -->
+        <script src="../assets/js/jquery-1.8.3.min.js"></script>
+        <script>
+        window.jQuery || document.write('<script src="../assets/js/libs/jquery-2.1.1.min.js">\x3C/script>')
+        </script>
+        <script src="../assets/js/jquery-ui.js"></script>
+        <script>
+        window.jQuery || document.write('<script src="../assets/js/libs/jquery-ui-1.10.4.min.js">\x3C/script>')
+        </script>
+        <!-- Bootstrap plugins -->
+        <script src="../assets/js/bootstrap/bootstrap.js"></script>
+        <!-- Core plugins ( not remove ever) -->
+        <!-- Handle responsive view functions -->
+        <script src="../assets/js/jRespond.min.js"></script>
+        <!-- Custom scroll for sidebars,tables and etc. -->
+        <script src="../assets/plugins/core/slimscroll/jquery.slimscroll.min.js"></script>
+        <script src="../assets/plugins/core/slimscroll/jquery.slimscroll.horizontal.min.js"></script>
+        <!-- Resize text area in most pages -->
+        <script src="../assets/plugins/forms/autosize/jquery.autosize.js"></script>
+        <!-- Proivde quick search for many widgets -->
+        <script src="../assets/plugins/core/quicksearch/jquery.quicksearch.js"></script>
+        <!-- Bootbox confirm dialog for reset postion on panels -->
+        <script src="../assets/plugins/ui/bootbox/bootbox.js"></script>
+        <!-- Other plugins ( load only nessesary plugins for every page) -->
+        <script src="../assets/plugins/charts/flot/jquery.flot.js"></script>
+        <script src="../assets/plugins/charts/flot/jquery.flot.pie.js"></script>
+        <script src="../assets/plugins/charts/flot/jquery.flot.resize.js"></script>
+        <script src="../assets/plugins/charts/flot/jquery.flot.time.js"></script>
+        <script src="../assets/plugins/charts/flot/jquery.flot.growraf.js"></script>
+        <script src="../assets/plugins/charts/flot/jquery.flot.categories.js"></script>
+        <script src="../assets/plugins/charts/flot/jquery.flot.stack.js"></script>
+        <script src="../assets/plugins/charts/flot/jquery.flot.tooltip.min.js"></script>
+        <script src="../assets/plugins/charts/flot/date.js"></script>
+        <script src="../assets/plugins/charts/sparklines/jquery.sparkline.js"></script>
+        <script src="../assets/plugins/charts/pie-chart/jquery.easy-pie-chart.js"></script>
+        <script src="../assets/plugins/forms/icheck/jquery.icheck.js"></script>
+        <script src="../assets/plugins/forms/tags/jquery.tagsinput.min.js"></script>
+        <script src="../assets/plugins/forms/tinymce/tinymce.min.js"></script>
+        <script src="../assets/plugins/misc/highlight/highlight.pack.js"></script>
+        <script src="../assets/plugins/misc/countTo/jquery.countTo.js"></script>
+        <script src="../assets/plugins/ui/weather/skyicons.js"></script>
+        <script src="../assets/plugins/ui/notify/jquery.gritter.js"></script>
+        <script src="../assets/plugins/ui/calendar/fullcalendar.js"></script>
+        <script src="../assets/js/jquery.sprFlat.js"></script>
+        <script src="../assets/js/app.js"></script>
+        <script src="../assets/js/pages/dashboard.js"></script>
+        <script src="../assets/plugins/tables/datatables/jquery.dataTables.min.js"></script>
+        <script src="../assets/plugins/tables/datatables/jquery.dataTablesBS3.js"></script>
+        <script src="../assets/plugins/tables/datatables/tabletools/ZeroClipboard.js"></script>
+        <script src="../assets/plugins/tables/datatables/tabletools/TableTools.js"></script>
+        <script src="../assets/js/pages/data-tables.js"></script>
+    </body>
+</html>

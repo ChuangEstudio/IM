@@ -1,0 +1,4 @@
+jdbc.driver=com.mysql.jdbc.Driver
+jdbc.url=jdbc:mysql://118.89.226.241/USIEB?serverTimezone=UTC
+jdbc.username=usieb
+jdbc.password=usiebpsw
